@@ -10,4 +10,3 @@ ALLOWED_HOSTS = ['dev-meerewijck-chat-app.herokuapp.com/']
 DATABASES = {
     'default': dj_database.parse(os.environ.get("DATABASE_URL"))
     }
-}
