@@ -3,7 +3,7 @@ from .base import *
 import dj_database_url
 
 
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['dev-meerewijck-chat-app.herokuapp.com/']
 
