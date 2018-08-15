@@ -3,9 +3,9 @@ from .base import *
 import dj_database_url
 
 
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['dev-meerewijck-chat-app.herokuapp.com/']
+ALLOWED_HOSTS = ['dev-meerewijck-chat-app.herokuapp.com']
 
 DATABASES = {
     'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
